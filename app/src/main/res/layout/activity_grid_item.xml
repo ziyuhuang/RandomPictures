@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grid_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ziyuhuang.picshot.GridItem">
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="135dp"
+        android:scaleType="fitCenter"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/grid_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="save"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textSize="12sp"
+        />
+</LinearLayout>
